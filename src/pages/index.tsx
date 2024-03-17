@@ -14,13 +14,11 @@ export default function Home() {
         <meta name="QuillAudits" content="QuillAudits" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
       </Head>
-      <div >
-        <Hero/>
-        <CaseStudies/>
-        <Subscribe/>
+      <div>
+        <Hero />
+        <CaseStudies />
+        <Subscribe />
       </div>
     </>
   );
