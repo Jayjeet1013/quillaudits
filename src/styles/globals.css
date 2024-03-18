@@ -12,3 +12,39 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+.hero-grad{
+  background: linear-gradient(140.54deg, #000000 4.97%, #046202 83.69%);
+
+}
+
+.hero-grad::after{
+  background: linear-gradient(123deg, rgba(0, 0, 0, 0) 30%, #000000 100%);
+ top: -440px;
+ left: -15px;
+
+}
+
+.quill-grad{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 58.5%, #FFABC9 62%);
+
+}
+
+.card-grad{
+  background: linear-gradient(90.3deg, #2B4D93 -10.68%, #0E205B 27.98%, #162867 55.94%, #323A87 103.52%);
+
+}
+
+.feed-shadow{
+  box-shadow: 0px 3.200000047683716px 3.200000047683716px 0px #00000040;
+
+}
+
+.box-grad{
+  border: 1px solid transparent; /* Set initial border as transparent */
+  border-image-source: linear-gradient(180deg, #7184FD 0%, #2D83EE 100%);
+  border-image-slice: 1; /* Ensures the gradient covers the entire border */
+  border-radius: 8px;
+  box-shadow: 0px 3px 12px 1px #5580DB36; /* Add box-shadow */
+
+}
