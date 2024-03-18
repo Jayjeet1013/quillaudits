@@ -59,3 +59,11 @@
   box-shadow: 2px 2px 12px 0px #0000000F;
 
 }
+
+.btn-style{
+  background: linear-gradient(267.25deg, #7184FD 20%, #3F7AF0 50%, #4F37EE 100%);
+  box-shadow: 0px 4.619999885559082px 6.930000305175781px -4.619999885559082px #0000001A;
+
+  box-shadow: 0px 11.549999237060547px 17.32499885559082px -3.4650001525878906px #0000001A;
+  
+}
