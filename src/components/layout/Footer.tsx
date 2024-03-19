@@ -16,6 +16,7 @@ const Footer = () => {
     fontWeight: 500,
     lineHeight: "23px",
     color: "#F1F1F1",
+    cursor:'pointer',
   };
 
   const btnstyle = {
@@ -54,9 +55,9 @@ const Footer = () => {
             </h1>
 
             <div className="mt-4 space-y-3">
-              <h2 style={subStyle}>About Us</h2>
-              <h2 style={subStyle}>FAQs</h2>
-              <h2 style={subStyle}>Blockchains We Audit</h2>
+              <h2 style={subStyle} className="hover:opacity-50 ">About Us</h2>
+              <h2 style={subStyle} className="hover:opacity-50 ">FAQs</h2>
+              <h2 style={subStyle} className="hover:opacity-50 ">Blockchains We Audit</h2>
             </div>
 
             <h2 className="font-[Jost] mt-10 text-[18px] leading-[26px] text-[#F1F1F1] ">
@@ -118,20 +119,20 @@ const Footer = () => {
                 >
                   Audit Services
                 </h1>
-                <div className="space-y-3 mt-4 ">
-                  <h2 style={subStyle}>Ethereum Audit</h2>
-                  <h2 style={subStyle}>Polygon Audit</h2>
-                  <h2 style={subStyle}>BSC Audit</h2>
-                  <h2 style={subStyle}>Solana Audit</h2>
-                  <h2 style={subStyle}>NEAR Audit</h2>
-                  <h2 style={subStyle}>Algorand Audit</h2>
-                  <h2 style={subStyle}>Tezos Audit</h2>
-                  <h2 style={subStyle}>Hyperledger Fabric Audit</h2>
-                  <h2 style={subStyle}>L1 Audit</h2>
-                  <h2 style={subStyle}>Polkadot Audit</h2>
-                  <h2 style={subStyle}>Wallet Audit</h2>
-                  <h2 style={subStyle}>ZkSync Audit</h2>
-                  <h2 style={subStyle}>Starknet Audit</h2>
+                <div className="space-y-3   mt-4 ">
+                  <h2 style={subStyle} className="hover:opacity-50 ">Ethereum Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Polygon Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">BSC Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Solana Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">NEAR Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Algorand Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Tezos Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Hyperledger Fabric Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">L1 Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Polkadot Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Wallet Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">ZkSync Audit</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Starknet Audit</h2>
                 </div>
               </div>
               <div>
@@ -142,13 +143,13 @@ const Footer = () => {
                   Quill Ecosystem
                 </h1>
                 <div className="mt-4 space-y-3 ">
-                  <h2 style={subStyle}>QuillAI</h2>
-                  <h2 style={subStyle}>QuillCheck</h2>
-                  <h2 style={subStyle}>QuillShield</h2>
-                  <h2 style={subStyle}>QuillAcademy</h2>
-                  <h2 style={subStyle}>QuillMonitor</h2>
-                  <h2 style={subStyle}>Web3Suggest</h2>
-                  <h2 style={subStyle}>Explore All Tools</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">QuillAI</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">QuillCheck</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">QuillShield</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">QuillAcademy</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">QuillMonitor</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Web3Suggest</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Explore All Tools</h2>
                 </div>
               </div>
               <div>
@@ -159,14 +160,14 @@ const Footer = () => {
                   Other Services
                 </h1>
                 <div className="mt-4 space-y-3 ">
-                  <h2 style={subStyle}>Red Teaming</h2>
-                  <h2 style={subStyle}>dApp Pentesting</h2>
-                  <h2 style={subStyle}>DeFi Diligence</h2>
-                  <h2 style={subStyle}>NFT Due Diligence</h2>
-                  <h2 style={subStyle}>Rug Pull Due Diligence</h2>
-                  <h2 style={subStyle}>Security Consultation</h2>
-                  <h2 style={subStyle}>Blockchain Forensics</h2>
-                  <h2 style={subStyle}>KYC (Know Your Customer)</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Red Teaming</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">dApp Pentesting</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">DeFi Diligence</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">NFT Due Diligence</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Rug Pull Due Diligence</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Security Consultation</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Blockchain Forensics</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">KYC (Know Your Customer)</h2>
                 </div>
               </div>
               <div>
@@ -177,14 +178,14 @@ const Footer = () => {
                   Quick Links
                 </h1>
                 <div className="mt-4 space-y-3 ">
-                  <h2 style={subStyle}>Pricing</h2>
-                  <h2 style={subStyle}>Audit Process</h2>
-                  <h2 style={subStyle}>Our Audits</h2>
-                  <h2 style={subStyle}>Testimonials</h2>
-                  <h2 style={subStyle}>Security Synopsis</h2>
-                  <h2 style={subStyle}>Blog</h2>
-                  <h2 style={subStyle}>Clients</h2>
-                  <h2 style={subStyle}>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Pricing</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Audit Process</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Our Audits</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Testimonials</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Security Synopsis</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Blog</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">Clients</h2>
+                  <h2 style={subStyle} className="hover:opacity-50 ">
                     Careers
                     <span className="px-2 py-0.5 text-[13px] leading-[20px] bg-[#2D83EE] rounded-md ml-2  ">
                       Hiring
@@ -203,25 +204,25 @@ const Footer = () => {
               <div className=" grid gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pt-2 ">
                 <button
                   style={btnstyle}
-                  className="bg-[#2870EA] w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
+                  className="hover:opacity-70 w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
                 >
                   Refer-Earn-Secure
                 </button>
                 <button
                   style={btnstyle}
-                  className="bg-[#2870EA] w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
+                  className="hover:opacity-70 w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
                 >
                   WAGSI Grants
                 </button>
                 <button
                   style={btnstyle}
-                  className="bg-[#2870EA] w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
+                  className="hover:opacity-70 w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
                 >
                   Ambassador Program
                 </button>
                 <button
                   style={btnstyle}
-                  className="bg-[#2870EA] w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
+                  className="hover:opacity-70 w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
                 >
                   Partnership Program
                 </button>
