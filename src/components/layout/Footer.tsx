@@ -31,7 +31,7 @@ const Footer = () => {
       className=" bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/BG.svg')" }}
     >
-      <div className="px-7 lg:px-44  pt-8 pb-12">
+      <div className="px-4 max-w-[1550px] mx-auto  lg:px-8  pt-8 pb-12">
         <div>
           <Image
             src={"/QuillAudits Logo.svg"}
@@ -44,8 +44,8 @@ const Footer = () => {
           </span>
         </div>
 
-        <div className="flex justify-between lg:flex-row flex-col-reverse mt-5 ">
-          <div className="w-[235px]  ">
+        <div className="flex justify-between xl:flex-row gap-8 xl:gap-0  flex-col-reverse  mt-5">
+          <div className="md:w-[235px]  ">
             <h1
               className=" border-b-2 border-[#2D83EE] w-[163px]  "
               style={titleStyle}
@@ -100,7 +100,7 @@ const Footer = () => {
                 </span>
               </div>
               <div>
-                <p className="font-[Jost] mt-3 text-[18px] leading-[26px] text-[#F1F1F1] ">
+                <p className="font-[Jost] mt-3 text-[14px] md:text-[18px] leading-[26px] text-[#F1F1F1] ">
                   Office 104/105 Level 1, Emaar Square, Building 4 Sheikh
                   Mohammed Bin Rashid Boulevard Downtown Dubai, United Arab
                   Emirates P.O box: 416654
@@ -109,8 +109,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col-reverse w-[75%] lg:flex-col  ">
-            <div className="flex justify-between gap-10 flex-wrap ">
+          <div className="flex flex-col-reverse xl:w-[75%] gap-8 xl:gap-0 xl:flex-col  ">
+            <div className="flex justify-between gap-4 md:gap-10 flex-wrap ">
               <div>
                 <h1
                   className=" border-b-2 border-[#2D83EE] w-[134px]  "
@@ -193,49 +193,61 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:-mt-24 lg:ml-[25%] ">
+            <div className="xl:-mt-24 xl:ml-[25%]  ">
               <h1
                 className=" border-b-2  border-[#2D83EE] w-[159px]  "
                 style={titleStyle}
               >
                 Our Programmes
               </h1>
-              <div className=" grid w-[889px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pt-2 ">
+              <div className=" grid gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pt-2 ">
                 <button
                   style={btnstyle}
-                  className="bg-[#2870EA] w-[200px] font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
+                  className="bg-[#2870EA] w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
                 >
                   Refer-Earn-Secure
                 </button>
                 <button
                   style={btnstyle}
-                  className="bg-[#2870EA] w-[200px] font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
+                  className="bg-[#2870EA] w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
                 >
-                  Refer-Earn-Secure
+                  WAGSI Grants
                 </button>
                 <button
                   style={btnstyle}
-                  className="bg-[#2870EA] w-[200px] font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
+                  className="bg-[#2870EA] w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
                 >
-                  Refer-Earn-Secure
+                  Ambassador Program
                 </button>
                 <button
                   style={btnstyle}
-                  className="bg-[#2870EA] w-[200px] font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
+                  className="bg-[#2870EA] w-full font-[jost] font-medium btn-style text-[22px] leadding-[32px] text-[#FFFFFF]  py-2 rounded-md"
                 >
-                  Refer-Earn-Secure
+                  Partnership Program
                 </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="flex justify-between items-center border-b-2 pb-10 border-[#FFFFFF] border-opacity-10 ">
-          <div className="flex justify-between gap-16 ">
-            <Image src={"/img22.svg"} alt="image" width={212} height={60} />
-            <Image src={"/img11.svg"} alt="image" width={212} height={60} />
+        <div className="flex  md:flex-row flex-col gap-6 justify-between items-center border-b-2 pb-10 border-[#FFFFFF] border-opacity-10 ">
+          <div className="flex  justify-between gap-6 md:gap-16 ">
+            <Image
+              src={"/img22.svg"}
+              alt="image"
+              width={148}
+              height={45}
+              className="w-[148px] md:w-[220]"
+            />
+            <Image
+              src={"/img11.svg"}
+              alt="image"
+              width={135}
+              height={45}
+              className="w-[148px] md:w-[220]"
+            />
           </div>
-          <div className="flex gap-10  ">
+          <div className="flex gap-4 md:gap-10  ">
             <Image src={"/icon1.svg"} alt="image" width={23} height={23} />
             <Image src={"/icon2.svg"} alt="image" width={23} height={23} />
             <Image src={"/icon3.svg"} alt="image" width={28} height={23} />
@@ -246,11 +258,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between mt-2 ">
-          <h1 className="text-[#FFFFFF] text-[13px] font-normal leading-[20px]  ">
+        <div className="flex md:flex-row  flex-col-reverse justify-center text-center md:justify-between mt-2 ">
+          <h1 className="text-[#FFFFFF] text-[11px] md:text-[13px] font-normal leading-[20px]  ">
             All Rights Reserved. © Copyright 2023. QuillAudits - LLC{" "}
           </h1>
-          <h2 className="text-[#FFFFFF] text-[13px] font-normal leading-[20px]  ">
+          <h2 className="text-[#FFFFFF]  text-[11px] md:text-[13px]  font-normal leading-[20px]  ">
             Privacy Policy
           </h2>
         </div>
